@@ -925,7 +925,7 @@ PrefabInstance:
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
       propertyPath: m_Name
-      value: greenPlatform (2)
+      value: greenPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
@@ -1995,7 +1995,7 @@ PrefabInstance:
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
       propertyPath: m_Name
-      value: greenPlatform (5)
+      value: greenPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
@@ -2331,7 +2331,7 @@ PrefabInstance:
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
       propertyPath: m_Name
-      value: greenPlatform (3)
+      value: greenPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
@@ -3627,7 +3627,7 @@ PrefabInstance:
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
       propertyPath: m_Name
-      value: greenPlatform (4)
+      value: greenPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
@@ -4016,7 +4016,7 @@ PrefabInstance:
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
       propertyPath: m_Name
-      value: greenPlatform (1)
+      value: greenPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
@@ -4929,7 +4929,7 @@ PrefabInstance:
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}
       propertyPath: m_Name
-      value: greenPlatform (6)
+      value: greenPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 2331405436703451554, guid: 12474a7cb9bbaf94085c9c575f99567a,
         type: 3}

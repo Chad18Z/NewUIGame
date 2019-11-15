@@ -15,6 +15,14 @@ public class playerController : MonoBehaviour
     AudioSource landSound;
     AudioSource shootSound;
 
+    // Particle system for when player falls onto a green platform
+    [SerializeField]
+    GameObject greenImpact;
+
+    // Particle system for when player falls onto a green platform
+    [SerializeField]
+    GameObject redImpact;
+
     CircleCollider2D coll;
 
     public AnimationCurve accelerationCurve;
@@ -216,6 +224,18 @@ public class playerController : MonoBehaviour
             // Velocity magnitude large enough to cause sound to trigger
             if (collision.relativeVelocity.magnitude > 4)
             {
+                GameObject impact;
+                if (collision.collider.name == "greenPlatform")
+                {
+                    impact = Instantiate(greenImpact, null);
+                }
+                else
+                {
+                    impact = Instantiate(redImpact, null);
+                }
+                    
+                ContactPoint2D contact = collision.GetContact(0);
+                impact.transform.position = contact.point;
                 landSound.pitch = Random.Range(.5f, .8f);
                 landSound.Play();
             }

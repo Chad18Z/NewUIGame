@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Levels\Level.cs" />
     <Compile Include="Assets\Scripts\Levels\LevelObject.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ImpactParticleManager.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ParticleSystemHandler.cs" />
     <Compile Include="Assets\Scripts\Managers\PlaylistManager.cs" />

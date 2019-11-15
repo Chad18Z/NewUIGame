@@ -204,6 +204,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca0fd5a605ce7d4187a064f0b5dd574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  greenImpact: {fileID: 1147740625072654390, guid: 940d941dd53b9ca49ba0deb23c02a018,
+    type: 3}
+  redImpact: {fileID: 1147740625072654390, guid: fa2007a0e08bd554daadb8085fad19eb,
+    type: 3}
   accelerationCurve:
     serializedVersion: 2
     m_Curve:
