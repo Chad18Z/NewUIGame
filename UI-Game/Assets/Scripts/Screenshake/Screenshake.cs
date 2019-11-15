@@ -8,11 +8,11 @@ public class Screenshake : MonoBehaviour
 {
     float ShakeDuration = 0.05f;
 
-    float smallShakeAmplitude = 2f;
-    float mediumShakeAmplitude = 4f;
-    float bigShakeAmplitude = 6f;
+    float smallShakeAmplitude = 1.3f;
+    float mediumShakeAmplitude = 2f;
+    float bigShakeAmplitude = 4f;
 
-    float ShakeFrequency = 4.0f;
+    float ShakeFrequency = 3.0f;
 
     float ShakeElapsedTime = 0f;
 

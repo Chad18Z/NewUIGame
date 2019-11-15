@@ -224,16 +224,8 @@ public class playerController : MonoBehaviour
             // Velocity magnitude large enough to cause sound to trigger
             if (collision.relativeVelocity.magnitude > 4)
             {
-                GameObject impact;
-                if (collision.collider.name == "greenPlatform")
-                {
-                    impact = Instantiate(greenImpact, null);
-                }
-                else
-                {
-                    impact = Instantiate(redImpact, null);
-                }
-                    
+                GameObject impact = (collision.collider.name == "greenPlatform") ? impact = Instantiate(greenImpact, null) : impact = Instantiate(redImpact, null);
+                Screenshake.smallShakeEvent.Invoke();
                 ContactPoint2D contact = collision.GetContact(0);
                 impact.transform.position = contact.point;
                 landSound.pitch = Random.Range(.5f, .8f);
