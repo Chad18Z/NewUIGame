@@ -18,4 +18,4 @@ MonoBehaviour:
   descrText: Leads to nowhere
   requiredSpeedBonus: 0
   requiredScore: 0
-  reward: {fileID: 0}
+  reward: {fileID: 11400000, guid: 8d2b38f8f63b9794b804d186eea38b9a, type: 2}
