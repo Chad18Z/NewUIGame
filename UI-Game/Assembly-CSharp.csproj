@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ParticleSystemHandler.cs" />
     <Compile Include="Assets\Scripts\Managers\PlaylistManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\Teletype.cs" />
     <Compile Include="Assets\Scripts\Menus\ControlSchemeSelect.cs" />
     <Compile Include="Assets\Scripts\Menus\DragAndDrop.cs" />
     <Compile Include="Assets\Scripts\Menus\GamepadSchemeSelect.cs" />
