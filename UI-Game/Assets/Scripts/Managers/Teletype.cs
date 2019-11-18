@@ -18,7 +18,7 @@ public class Teletype : MonoBehaviour
     AnimationCurve fadeOutCurve;
 
     // Fade-out rate
-    float fadeRate = .01f;
+    float fadeRate = .02f;
 
     Coroutine display;
 
@@ -50,6 +50,7 @@ public class Teletype : MonoBehaviour
             counter += fadeRate;
             yield return null;
         }
+        textBox.text = "";
         textBox.alpha = 0;
 
         yield return null;
@@ -81,6 +82,7 @@ public class Teletype : MonoBehaviour
 
         //SoundEffectSource.Stop();
         StartCoroutine(FadeOut());
+
         yield return null;
     }
 }

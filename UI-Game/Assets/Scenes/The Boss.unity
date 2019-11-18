@@ -1502,7 +1502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1508124753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1983,6 +1983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1865386212}
   - component: {fileID: 1865386211}
+  - component: {fileID: 1865386213}
   m_Layer: 0
   m_Name: TimelineManager
   m_TagString: Untagged
@@ -2011,6 +2012,8 @@ PlayableDirector:
     value: {fileID: 2134192341}
   - key: {fileID: 8283403577146632433, guid: d3ab460e9ba0f4b4ea50df41ff414c6f, type: 2}
     value: {fileID: 1706820037}
+  - key: {fileID: -7328072272571672843, guid: d3ab460e9ba0f4b4ea50df41ff414c6f, type: 2}
+    value: {fileID: 1865386210}
   m_ExposedReferences:
     m_References:
     - 64a12614a29a721439566d1defa0e2bc: {fileID: 1142302842}
@@ -2028,6 +2031,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1865386213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865386210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: ec45dc141a7623e419878cb1da1adf87, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1508124753}
+          m_MethodName: HandleSignal
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
 --- !u!1001 &1960677077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2508,22 +2542,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
+      time: 0.0015335083
+      value: 0.99902344
       inSlope: 0
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.9983738
+      value: 0.0013464028
+      inSlope: -2.7346067
+      outSlope: -2.7346067
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.022013955
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
