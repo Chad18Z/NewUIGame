@@ -43,6 +43,7 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineFramingTransposer
     - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineStoryboard
     - Cinemachine.CinemachineVirtualCamera
     - Cinemachine.NoiseSettings
     Unity.2D.Animation.Editor.dll:
@@ -75,7 +76,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     Unity.Timeline.Editor.dll:
-    - UnityEditor.Timeline.AnimationPlayableAssetInspector
     - UnityEditor.Timeline.AnimationTrackInspector
     - UnityEditor.Timeline.EditorClip
     - UnityEditor.Timeline.SequenceHierarchy
@@ -84,6 +84,7 @@ ScriptsOnlyBuild:
     Unity.Timeline.dll:
     - UnityEngine.Timeline.AnimationPlayableAsset
     - UnityEngine.Timeline.AnimationTrack
+    - UnityEngine.Timeline.AudioTrack
     - UnityEngine.Timeline.MarkerTrack
     - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
@@ -1024,6 +1025,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12456}
     - Class: 114
+      Script: {instanceID: 12542}
+    - Class: 114
       Script: {instanceID: 12908}
     - Class: 114
       Script: {instanceID: 12970}
@@ -1035,6 +1038,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13356}
     - Class: 114
       Script: {instanceID: 13426}
+    - Class: 114
+      Script: {instanceID: 40194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
