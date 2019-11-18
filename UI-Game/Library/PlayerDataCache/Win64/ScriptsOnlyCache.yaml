@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - BackgroundMusic
     - ControlSchemeSelect
     - CreditsScreen
+    - Dialog
     - GameManager
     - GamepadSchemeSelect
     - Grid
@@ -33,6 +34,7 @@ ScriptsOnlyBuild:
     - Screenshake
     - Spawner
     - StartMenu
+    - Teletype
     - Timer
     - Unit
     - controller
@@ -76,19 +78,16 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     Unity.Timeline.Editor.dll:
-    - UnityEditor.Timeline.AnimationPlayableAssetInspector
+    - UnityEditor.Timeline.AnimationTrackInspector
     - UnityEditor.Timeline.EditorClip
     - UnityEditor.Timeline.SequenceHierarchy
     - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
-    - UnityEngine.Timeline.AudioPlayableAssetInspector
     Unity.Timeline.dll:
     - UnityEngine.Timeline.ActivationPlayableAsset
     - UnityEngine.Timeline.ActivationTrack
     - UnityEngine.Timeline.AnimationPlayableAsset
     - UnityEngine.Timeline.AnimationTrack
-    - UnityEngine.Timeline.AudioPlayableAsset
-    - UnityEngine.Timeline.AudioTrack
     - UnityEngine.Timeline.MarkerTrack
     - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
@@ -973,8 +972,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9326}
     - Class: 114
-      Script: {instanceID: 9338}
-    - Class: 114
       Script: {instanceID: 9478}
     - Class: 114
       Script: {instanceID: 9566}
@@ -1033,7 +1030,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12456}
     - Class: 114
-      Script: {instanceID: 12542}
+      Script: {instanceID: 12528}
     - Class: 114
       Script: {instanceID: 12908}
     - Class: 114
@@ -1047,7 +1044,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 36682}
+      Script: {instanceID: 26070}
+    - Class: 114
+      Script: {instanceID: 59010}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2550,7 +2549,7 @@ ScriptsOnlyBuild:
     className: Benchmark01_UGUI
   - hash:
       serializedVersion: 2
-      Hash: 34169a4d99e2fc4c2ad7fa4a56e2cead
+      Hash: 8fb5cbf49737e49afe1439a63f5e654d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Teletype
@@ -2812,6 +2811,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Dialog
   platform: 19
   scenePathNames:
   - Assets/Scenes/Start.unity

@@ -17,6 +17,7 @@ TagManager:
   - Timer
   - pelletController
   - availablePortals
+  - teletype
   layers:
   - Default
   - TransparentFX

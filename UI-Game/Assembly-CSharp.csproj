@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Input\Player.cs" />
     <Compile Include="Assets\Scripts\Boss\controller.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Dialog.cs" />
     <Compile Include="Assets\Scripts\Events\PacmanDeathEvent.cs" />
     <Compile Include="Assets\Scripts\Events\PelletCollectedEvent.cs" />
     <Compile Include="Assets\Scripts\Events\PointsGrantedEvent.cs" />
