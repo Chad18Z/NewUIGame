@@ -8,9 +8,9 @@ public class Dialog : MonoBehaviour
     Teletype teletype;
     string[] text =
     {
-        "Best company party ever!",
-        "I knew morale would improve after I take over",
-        "Anyhoo, come inside we're about to present best employee awards",
+        "Best company Christmas party ever!",
+        "I knew morale would improve once I'm in charge",
+        "Anyhoo, come inside, we're about to present awards",
         "And take that sheet off yer head, you look ridiculous!"
     };
     // Start is called before the first frame update
