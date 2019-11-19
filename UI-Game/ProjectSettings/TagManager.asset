@@ -18,6 +18,7 @@ TagManager:
   - pelletController
   - availablePortals
   - teletype
+  - creditsPanel
   layers:
   - Default
   - TransparentFX
