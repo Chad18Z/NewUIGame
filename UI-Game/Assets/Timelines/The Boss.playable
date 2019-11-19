@@ -25,6 +25,8 @@ MonoBehaviour:
     m_Objects:
     - {fileID: -1315611697826589328}
     - {fileID: 7705698364489272156}
+    - {fileID: 1463950899553251608}
+    - {fileID: -6667011306195284322}
 --- !u!74 &-6823246533975354836
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -157,6 +159,22 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
+--- !u!114 &-6667011306195284322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 20.033333333333335
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: ec45dc141a7623e419878cb1da1adf87, type: 2}
 --- !u!114 &-4284286524471056054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -214,11 +232,27 @@ MonoBehaviour:
   - {fileID: 4269432208977909259}
   - {fileID: 4663320340798404018}
   - {fileID: 8283403577146632433}
-  m_FixedDuration: 16.333333333333332
+  m_FixedDuration: 22.416666666666668
   m_EditorSettings:
     m_Framerate: 60
   m_DurationMode: 1
   m_MarkerTrack: {fileID: -7328072272571672843}
+--- !u!114 &1463950899553251608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 16.016666666666666
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: ec45dc141a7623e419878cb1da1adf87, type: 2}
 --- !u!114 &4269432208977909259
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -9,7 +9,9 @@ public class Dialog : MonoBehaviour
     string[] text =
     {
         "Best company party ever!",
-        "I knew morale would improve after I took over"
+        "I knew morale would improve after I take over",
+        "Anyhoo, come inside we're about to present best employee awards",
+        "And take that sheet off yer head, you look ridiculous!"
     };
     // Start is called before the first frame update
     void Start()
@@ -19,7 +21,7 @@ public class Dialog : MonoBehaviour
 
     public void HandleSignal()
     {
-        Debug.Log("Signal received");
+        //Debug.Log("Signal received");
         if (index <= text.Length)
         {
             ShowString(text[index]);

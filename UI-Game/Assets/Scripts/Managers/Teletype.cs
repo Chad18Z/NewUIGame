@@ -9,7 +9,7 @@ public class Teletype : MonoBehaviour
     [SerializeField]
     GameObject messageText;
 
-    //AudioSource SoundEffectSource;
+    AudioSource SoundEffectSource;
 
     TextMeshProUGUI textBox;
 
@@ -26,7 +26,7 @@ public class Teletype : MonoBehaviour
     private void OnEnable()
     {
         //messageText = GameObject.FindGameObjectWithTag("textMeshDialog");
-        //SoundEffectSource = gameObject.GetComponent<AudioSource>();
+        SoundEffectSource = gameObject.GetComponent<AudioSource>();
         textBox = messageText.GetComponent<TextMeshProUGUI>();
     }
 
@@ -59,12 +59,12 @@ public class Teletype : MonoBehaviour
     IEnumerator DisplayMessage(string message)
     {
         //bool skip = false;
-        //SoundEffectSource.loop = true;
+        SoundEffectSource.loop = true;
         yield return new WaitForSeconds(.1f);
         int totalVisibleCharacters = textBox.textInfo.characterCount;
         int counter = 0;
         bool quit = false;
-        //SoundEffectSource.Play();
+        SoundEffectSource.Play();
         while (!quit)
         {
             int visibleCount = counter % (totalVisibleCharacters + 1);
@@ -72,7 +72,7 @@ public class Teletype : MonoBehaviour
             textBox.maxVisibleCharacters = visibleCount;
             if (visibleCount >= totalVisibleCharacters)
             {
-                //SoundEffectSource.loop = false;
+                SoundEffectSource.loop = false;
                 yield return new WaitForSeconds(1.5f);
                 quit = true;
             }
@@ -80,7 +80,7 @@ public class Teletype : MonoBehaviour
             yield return new WaitForSeconds(.01f);
         }
 
-        //SoundEffectSource.Stop();
+        SoundEffectSource.Stop();
         StartCoroutine(FadeOut());
 
         yield return null;
