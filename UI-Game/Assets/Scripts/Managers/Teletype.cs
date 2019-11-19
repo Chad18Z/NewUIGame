@@ -73,7 +73,7 @@ public class Teletype : MonoBehaviour
             if (visibleCount >= totalVisibleCharacters)
             {
                 SoundEffectSource.loop = false;
-                yield return new WaitForSeconds(1.5f);
+                yield return new WaitForSeconds(1.9f);
                 quit = true;
             }
             counter += 1;

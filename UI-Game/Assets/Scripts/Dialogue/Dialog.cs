@@ -9,9 +9,10 @@ public class Dialog : MonoBehaviour
     string[] text =
     {
         "Best company Christmas party ever!",
-        "I knew morale would improve once I'm in charge",
+        "Apparently some smartass added shrooms to their cookie recipe",
+        "I knew morale would improve once I became the boss",
         "Anyhoo, come inside, we're about to present awards",
-        "And take that sheet off yer head, you look ridiculous!"
+        "...and take that sheet off yer head, you look ridiculous!"
     };
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,7 @@ public class Dialog : MonoBehaviour
     public void HandleSignal()
     {
         //Debug.Log("Signal received");
-        if (index <= text.Length)
+        if (index < text.Length)
         {
             ShowString(text[index]);
             index++;

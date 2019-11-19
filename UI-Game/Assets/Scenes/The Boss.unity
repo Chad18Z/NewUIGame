@@ -1380,6 +1380,7 @@ GameObject:
   - component: {fileID: 1142302844}
   - component: {fileID: 1142302846}
   - component: {fileID: 1142302845}
+  - component: {fileID: 1142302847}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -1517,6 +1518,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &1142302847
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142302841}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: f8fe51a76a7bb3d49a0db0a66eee35d2, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5888389350507123144, guid: f8fe51a76a7bb3d49a0db0a66eee35d2, type: 2}
+    value: {fileID: 1142302846}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1508124752
 GameObject:
   m_ObjectHideFlags: 0
