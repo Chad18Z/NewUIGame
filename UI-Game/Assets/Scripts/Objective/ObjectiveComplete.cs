@@ -103,7 +103,7 @@ public class ObjectiveComplete : MonoBehaviour
         LevelObject currentPortal = availablePortals.ActivePortal;
 
         // This means that the player has beaten the game
-        if (currentPortal.reward == null)
+        if (!currentPortal.reward)
         {
             // CHANGE THIS LATER....PLAYER HAS BEATEN THE GAME!
             return false;

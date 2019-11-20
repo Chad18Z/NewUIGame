@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+    [SerializeField]
+    string sceneName;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,6 @@ public class SceneChanger : MonoBehaviour
 
     public void ChangeScene()
     {
-        SceneManager.LoadScene("RollingCredits");
+        SceneManager.LoadScene(sceneName);
     }
 }

@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RollingCredits.unity
     guid: 2dbcd21c83968c04790729fc5cd241f9
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 1dd8d7b9d986f144d950234392fe7a96
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 8c993d122d2b1a8498234064d5161240,
       type: 2}

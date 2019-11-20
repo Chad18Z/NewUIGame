@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeInFrames: 0
-  timeAreaShownRange: {x: -0.19267055, y: 30.615353}
+  timeAreaShownRange: {x: 15.230918, y: 38.179234}
   showAudioWaveform: 1
   trackHeight: 30
   trackScale: 1
@@ -27,6 +27,7 @@ MonoBehaviour:
   - {fileID: 4772137893408214408, guid: b31f5742d128c5e418a8e8a6833f84ec, type: 2}
   - {fileID: -3777964865144751171, guid: b31f5742d128c5e418a8e8a6833f84ec, type: 2}
   - {fileID: 3061183254667211272, guid: b31f5742d128c5e418a8e8a6833f84ec, type: 2}
+  - {fileID: 4002323592599794678, guid: b31f5742d128c5e418a8e8a6833f84ec, type: 2}
   m_Vals:
   - collapsed: 0
     showMarkers: 1
@@ -96,8 +97,43 @@ MonoBehaviour:
       y: 1
       width: 1
       height: 1
-    m_MarkerTimeStampsKeys: fe4b000088ecffff78ecffff7eecffff8eecffff08b8ffff
-    m_MarkerTimeStampsValues: 2abc3d07dd6dd70885b2e640df6dd7086cca7e10e16dd708c28aeee6e06dd7082ab750bbde6dd708eb25ee24e16dd708
+    m_MarkerTimeStampsKeys: fe4b000088ecffff78ecffff7eecffff8eecffff08b8ffff884d0000
+    m_MarkerTimeStampsValues: 2abc3d07dd6dd70885b2e640df6dd7086cca7e10e16dd708c28aeee6e06dd7082ab750bbde6dd708eb25ee24e16dd7082cce0bb9f06dd708
+  - collapsed: 0
+    showMarkers: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+    lastInlineCurveDataID: -1
+    inlineCurvesState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    inlineCurvesShownAreaInsideMargins:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 1
+      height: 1
+    m_MarkerTimeStampsKeys: 
+    m_MarkerTimeStampsValues: 
   - collapsed: 0
     showMarkers: 1
     showInlineCurves: 0
