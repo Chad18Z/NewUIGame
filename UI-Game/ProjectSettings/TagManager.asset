@@ -19,6 +19,7 @@ TagManager:
   - availablePortals
   - teletype
   - creditsPanel
+  - music
   layers:
   - Default
   - TransparentFX

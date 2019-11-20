@@ -9,9 +9,9 @@ public class Dialog : MonoBehaviour
     string[] text =
     {
         "Best company Christmas party ever!",
-        "Apparently some smartass added shrooms to their cookie recipe",
-        "I knew morale would improve once I became the boss",
-        "Anyhoo, come inside, we're about to present awards",
+        "Be careful, those purple cookies are chocked full O' shrooms",
+        "...I always knew morale would improve after I become the boss",
+        "Anyhoo, come back inside, we're gonna hand out annual awards",
         "...and take that sheet off yer head, you look ridiculous!"
     };
     // Start is called before the first frame update

@@ -74,8 +74,10 @@
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ImpactParticleManager.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\MusicManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ParticleSystemHandler.cs" />
     <Compile Include="Assets\Scripts\Managers\PlaylistManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\Managers\Teletype.cs" />
     <Compile Include="Assets\Scripts\Managers\TimelineManager.cs" />
     <Compile Include="Assets\Scripts\Menus\ControlSchemeSelect.cs" />

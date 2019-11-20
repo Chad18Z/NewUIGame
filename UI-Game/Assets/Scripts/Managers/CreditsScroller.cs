@@ -2,22 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CreditsScroller : MonoBehaviour
 {
-    [SerializeField]
-    GameObject creditsPanel;
-
-    Animator anim;
     
     private void Start()
     {
-        anim = gameObject.GetComponent<Animator>();
+        StartCoroutine("SceneChangeTimer");
         
     }
 
-    private void Update()
+    IEnumerator SceneChangeTimer()
     {
-        
+        yield return new WaitForSeconds(22f);
+        Destroy(GameObject.FindGameObjectWithTag("music"));
+        SceneManager.LoadScene("Start");
     }
 }
