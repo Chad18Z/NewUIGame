@@ -1210,6 +1210,8 @@ PlayableDirector:
     value: {fileID: 558267706}
   - key: {fileID: 4772137893408214408, guid: b31f5742d128c5e418a8e8a6833f84ec, type: 2}
     value: {fileID: 558267705}
+  - key: {fileID: -3777964865144751171, guid: b31f5742d128c5e418a8e8a6833f84ec, type: 2}
+    value: {fileID: 1142302844}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &558267708
@@ -2693,11 +2695,11 @@ RectTransform:
   m_Father: {fileID: 302982389}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 18, y: -166}
-  m_SizeDelta: {x: 300.41, y: 76.59}
-  m_Pivot: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -61.5, y: -190.3}
+  m_SizeDelta: {x: 320.8, y: 76.6}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1048381564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2784,7 +2786,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 14.926514, y: 0, z: 0, w: 0}
+  m_margin: {x: -1.8546448, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1048381564}
     characterCount: 0
@@ -3056,6 +3058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1142302843}
   - component: {fileID: 1142302842}
+  - component: {fileID: 1142302844}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -3115,6 +3118,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1142302844
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142302841}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1162376720
 PrefabInstance:
   m_ObjectHideFlags: 0

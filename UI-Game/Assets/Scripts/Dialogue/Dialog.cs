@@ -9,10 +9,10 @@ public class Dialog : MonoBehaviour
     string[] text =
     {
         "Best company Christmas party ever!",
-        "Be careful, those purple cookies are chocked full O' shrooms",
+        "Be careful, those purple cookies are loaded with shrooms",
         "...I always knew morale would improve after I become the boss",
         "Anyhoo, come back inside, we're gonna hand out annual awards",
-        "...and take that sheet off yer head, you look ridiculous!"
+        "...and take that tablecloth off yer head, you look ridiculous!"
     };
     // Start is called before the first frame update
     void Start()
