@@ -65,6 +65,7 @@
     <Compile Include="Assets\Input\Player.cs" />
     <Compile Include="Assets\Scripts\Boss\controller.cs" />
     <Compile Include="Assets\Scripts\Dialogue\Dialog.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\IntroDialog.cs" />
     <Compile Include="Assets\Scripts\Events\PacmanDeathEvent.cs" />
     <Compile Include="Assets\Scripts\Events\PelletCollectedEvent.cs" />
     <Compile Include="Assets\Scripts\Events\PointsGrantedEvent.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\Scripts\Managers\CreditsScroller.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ImpactParticleManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\IntroTimeline.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Managers\MusicManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ParticleSystemHandler.cs" />
