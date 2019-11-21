@@ -208,6 +208,7 @@ MonoBehaviour:
     type: 3}
   redImpact: {fileID: 1147740625072654390, guid: fa2007a0e08bd554daadb8085fad19eb,
     type: 3}
+  stomp: {fileID: 3205095050975185661, guid: 93b8ef45ea78c8b4d85eee81214002d1, type: 3}
   accelerationCurve:
     serializedVersion: 2
     m_Curve:

@@ -23,6 +23,9 @@ public class playerController : MonoBehaviour
     [SerializeField]
     GameObject redImpact;
 
+    [SerializeField]
+    GameObject stomp;
+
     CircleCollider2D coll;
 
     public AnimationCurve accelerationCurve;
@@ -258,14 +261,23 @@ public class playerController : MonoBehaviour
         // and don't take any damage
         RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, .5f, LayerMask.GetMask("stompCollider"));
 
-        if (hit)
+        if (hit && rb.velocity.y < 0)
         {
-            if (hit)
-            {
-                Debug.Log("Headstomp!");
-            }
+            GameObject stompObject = Instantiate(stomp, null);
+            stompObject.transform.position = transform.position;
+            return;
+            //if (hit)
+            //{
+            //    GameObject nomObject = Instantiate(stomp, null);
+            //    nomObject.transform.position = transform.position;
+            //    return;
+            //}
         }
-        damageTaken.Invoke();
+        else
+        {
+            damageTaken.Invoke();
+        }
+        
     }
 
     // Handles the event when the player falls from a platform
