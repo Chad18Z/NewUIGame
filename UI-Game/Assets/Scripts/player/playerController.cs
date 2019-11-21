@@ -241,7 +241,7 @@ public class playerController : MonoBehaviour
     {
         if (collision.tag == "pacman")
         {
-            CollidedWithPacman();
+            CollidedWithPacman(collision);
         }
     }
 
@@ -252,8 +252,19 @@ public class playerController : MonoBehaviour
         isPaused = !isPaused;
     }
 
-    void CollidedWithPacman()
+    void CollidedWithPacman(Collider2D col)
     {
+        // Here we can check if we're above the colliding object, if so, then activate headstomp
+        // and don't take any damage
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, .5f, LayerMask.GetMask("stompCollider"));
+
+        if (hit)
+        {
+            if (hit)
+            {
+                Debug.Log("Headstomp!");
+            }
+        }
         damageTaken.Invoke();
     }
 

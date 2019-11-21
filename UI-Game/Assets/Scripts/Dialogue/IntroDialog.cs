@@ -11,7 +11,7 @@ public class IntroDialog : MonoBehaviour
         "Wha- I'm a ghost!?",
         "Funny, I don't remember dying",
         "...and that's something I'd never forget!",
-        "I was celebrating the holidays with colleagues...",
+        "I was celebrating the holidays with my coworkers...",
         "...and the next thing I know....",
         "....Hey look! Cookies"
     };
