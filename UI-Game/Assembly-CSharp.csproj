@@ -104,6 +104,7 @@
     <Compile Include="Assets\Scripts\player\ControlScheme.cs" />
     <Compile Include="Assets\Scripts\player\ghostCatcher.cs" />
     <Compile Include="Assets\Scripts\player\Health.cs" />
+    <Compile Include="Assets\Scripts\player\Nom.cs" />
     <Compile Include="Assets\Scripts\player\playerController.cs" />
     <Compile Include="Assets\Scripts\player\PlayerProjectile.cs" />
     <Compile Include="Assets\Scripts\Portal\AvailablePortals.cs" />

@@ -9,9 +9,9 @@ public class IntroDialog : MonoBehaviour
     string[] text =
     {
         "Wha- I'm a ghost!?",
-        "But I can't recall having died",
+        "Funny, I don't remember dying",
         "...and that's something I'd never forget!",
-        "I was celebrating the holidays with collegues...",
+        "I was celebrating the holidays with colleagues...",
         "...and the next thing I know....",
         "....Hey look! Cookies"
     };

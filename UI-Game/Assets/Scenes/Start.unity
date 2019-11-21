@@ -2568,8 +2568,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allPortals:
+  - {fileID: 11400000, guid: f12532f55ed5b85468e36439541633d4, type: 2}
   - {fileID: 11400000, guid: 5806b3882b6224e4a8be03ba271404e4, type: 2}
   - {fileID: 11400000, guid: 64f62bdf6072294488c2175fe3689d3c, type: 2}
+  - {fileID: 11400000, guid: 29bc5ce5bfdbcf749b88aef2785488df, type: 2}
+  - {fileID: 11400000, guid: 8d2b38f8f63b9794b804d186eea38b9a, type: 2}
   isInPlaylistMode: 0
   portalPlaylist: []
   playlistIndex: 0

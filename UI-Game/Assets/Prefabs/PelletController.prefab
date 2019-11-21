@@ -46,6 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objComplete: {fileID: 1139895844425816190, guid: 9f148e8bd8b5d2d46bdd53b8dce7b1fd,
     type: 3}
+  nom: {fileID: 8623653174701122753, guid: 23ecd067a26a36144a71307cd67c6a13, type: 3}
 --- !u!82 &583910648842571091
 AudioSource:
   m_ObjectHideFlags: 0

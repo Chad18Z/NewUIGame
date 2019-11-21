@@ -8,6 +8,11 @@ public class PelletController : MonoBehaviour
     [SerializeField]
     GameObject objComplete;
 
+    [SerializeField]
+    GameObject nom;
+
+    Transform playerTransform;
+
     List<GameObject> pelletList = new List<GameObject>();
 
     AudioSource pelletCollectedSound; 
@@ -18,6 +23,7 @@ public class PelletController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         pelletCollectedSound = gameObject.GetComponent<AudioSource>();
         GameObject[] pellets = GameObject.FindGameObjectsWithTag("pellet");
         foreach (GameObject pellet in pellets)
@@ -32,6 +38,9 @@ public class PelletController : MonoBehaviour
         pelletCollectedSound.Play();
         pelletList.Remove(pellet);
         Destroy(pellet);
+
+        GameObject nomObject = Instantiate(nom, null);
+        nomObject.transform.position = playerTransform.position;
 
         if (pelletList.Count <= 0)
         {

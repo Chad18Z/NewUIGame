@@ -979,7 +979,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.308999, y: 0.83717996, z: -6.9088516}
+  m_LocalPosition: {x: -10.29, y: 0.83717996, z: -6.9088516}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 110901110}
@@ -1261,6 +1261,7 @@ MonoBehaviour:
   m_Events:
     m_Signals:
     - {fileID: 11400000, guid: ec45dc141a7623e419878cb1da1adf87, type: 2}
+    - {fileID: 0}
     - {fileID: 11400000, guid: 5fc0c4dda8d4f9241b20a1de6a7fc914, type: 2}
     m_Events:
     - m_PersistentCalls:
@@ -1279,8 +1280,12 @@ MonoBehaviour:
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
     - m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1546038326}
+        - m_Target: {fileID: 1141248636}
           m_MethodName: ChangeScene
           m_Mode: 1
           m_Arguments:
@@ -3176,6 +3181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneChanger
       objectReference: {fileID: 0}
+    - target: {fileID: 3314079364840164174, guid: e4e1f59b3987cae4b94929b306b7276e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3314079364840164172, guid: e4e1f59b3987cae4b94929b306b7276e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3234,10 +3244,22 @@ PrefabInstance:
     - target: {fileID: 3314079364840164173, guid: e4e1f59b3987cae4b94929b306b7276e,
         type: 3}
       propertyPath: sceneName
-      value: MainScene
+      value: PortalAwarded
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4e1f59b3987cae4b94929b306b7276e, type: 3}
+--- !u!114 &1141248636 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3314079364840164173, guid: e4e1f59b3987cae4b94929b306b7276e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1141248635}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d241275eba0fd044f8de09082a843719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1142302841
 GameObject:
   m_ObjectHideFlags: 0
@@ -3275,7 +3297,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 1893299529}
+  m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 2.29
@@ -3948,18 +3970,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56d6f790a4d38f844ac88a220d520ede, type: 3}
---- !u!114 &1546038326 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3314079364840164173, guid: e4e1f59b3987cae4b94929b306b7276e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1141248635}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d241275eba0fd044f8de09082a843719, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1549407858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4894,12 +4904,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12474a7cb9bbaf94085c9c575f99567a, type: 3}
---- !u!4 &1893299529 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 722084525057784743, guid: 7f4c6a88f4664b54c854290c424a6217,
-    type: 3}
-  m_PrefabInstance: {fileID: 987944578}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1926610210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5055,7 +5059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1946585611
 RectTransform:
   m_ObjectHideFlags: 0
