@@ -10,9 +10,9 @@ public class IntroDialog : MonoBehaviour
     {
         "Wha- I'm a ghost!?",
         "Funny, I don't remember dying",
-        "...and that's something I'd never forget!",
+        "...and that's something I'd certainly never forget",
         "I was celebrating the holidays with my coworkers...",
-        "...and the next thing I know....",
+        "...and next thing I know....",
         "....Hey look! Cookies"
     };
     // Start is called before the first frame update

@@ -28,7 +28,7 @@ public class Spawner : MonoBehaviour
 
     List<GameObject> spawnedPacmen = new List<GameObject>();
 
-    static PointsGrantedEvent pointsGranted = new PointsGrantedEvent();
+    public static PointsGrantedEvent pointsGranted = new PointsGrantedEvent();
 
     // Start is called before the first frame update
     void Start()

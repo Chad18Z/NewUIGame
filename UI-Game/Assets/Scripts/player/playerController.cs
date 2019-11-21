@@ -14,6 +14,7 @@ public class playerController : MonoBehaviour
     AudioSource jumpSound;
     AudioSource landSound;
     AudioSource shootSound;
+    AudioSource stompSound;
 
     // Particle system for when player falls onto a green platform
     [SerializeField]
@@ -190,6 +191,7 @@ public class playerController : MonoBehaviour
         jumpSound = sounds[0];
         landSound = sounds[1];
         shootSound = sounds[2];
+        stompSound = sounds[3];
     }
 
     void DeviceChange(InputDevice device, InputDeviceChange change)
@@ -263,8 +265,12 @@ public class playerController : MonoBehaviour
 
         if (hit && rb.velocity.y < 0)
         {
+            stompSound.Play();
+            rb.velocity += Vector2.up * 10f; // 7.3
+            Screenshake.bigShakeEvent.Invoke();
             GameObject stompObject = Instantiate(stomp, null);
             stompObject.transform.position = transform.position;
+            Spawner.pointsGranted.Invoke(1000);
             return;
             //if (hit)
             //{
