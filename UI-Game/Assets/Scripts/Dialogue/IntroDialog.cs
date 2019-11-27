@@ -8,12 +8,12 @@ public class IntroDialog : MonoBehaviour
     Teletype teletype;
     string[] text =
     {
-        "Wha- I'm a ghost!?",
-        "Funny, I don't remember dying",
+        "Wha- I'm a ghost!",
+        "But I don't remember dying",
         "...and that's something I'd certainly never forget",
-        "I was celebrating the holidays with my coworkers...",
-        "...and next thing I know....",
-        "....Hey look! Cookies"
+        "I was celebrating the holidays with coworkers...",
+        "...when all of a sudden....",
+        "....[distracted] Hey look! Cookies"
     };
     // Start is called before the first frame update
     void Start()
