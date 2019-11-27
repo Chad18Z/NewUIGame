@@ -84,9 +84,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - UnityEditor.Timeline.SequenceHierarchy
-    - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
     - UnityEngine.Timeline.ActivationPlayableAsset
     - UnityEngine.Timeline.ActivationTrack
@@ -105,8 +102,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
-    UnityEditor.UI.dll:
-    - UnityEditor.UI.HorizontalOrVerticalLayoutGroupEditor
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -693,6 +688,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9710}
     - Class: 114
       Script: {instanceID: 9714}
+    - Class: 114
+      Script: {instanceID: 9762}
     - Class: 114
       Script: {instanceID: 10482}
     - Class: 114
@@ -1325,7 +1322,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13452}
     - Class: 114
-      Script: {instanceID: 66204}
+      Script: {instanceID: 41358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
