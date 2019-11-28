@@ -2805,9 +2805,10 @@ MonoBehaviour:
   m_ActionsAsset: {fileID: -944628639613478452, guid: 02c4c6b4e1e35854bacf0bc3d82a4410,
     type: 3}
   m_PointAction: {fileID: 0}
-  m_MoveAction: {fileID: -2804163559292284537, guid: 02c4c6b4e1e35854bacf0bc3d82a4410,
+  m_MoveAction: {fileID: 3710738434707379630, guid: 02c4c6b4e1e35854bacf0bc3d82a4410,
     type: 3}
-  m_SubmitAction: {fileID: 0}
+  m_SubmitAction: {fileID: -4682142246220898272, guid: 02c4c6b4e1e35854bacf0bc3d82a4410,
+    type: 3}
   m_CancelAction: {fileID: -4510722760872495867, guid: 02c4c6b4e1e35854bacf0bc3d82a4410,
     type: 3}
   m_LeftClickAction: {fileID: 0}

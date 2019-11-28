@@ -482,10 +482,18 @@
             "id": "77636fdb-b123-41fc-ab8d-da04fbd2dc30",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Navigate",
                     "type": "Value",
                     "id": "550a5c1b-9370-479f-b4ea-3a0e3acc0142",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "c1ca4f33-1821-468b-9504-4fcc0f9d157c",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
                 }
@@ -498,7 +506,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Navigate",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -509,7 +517,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "UI_Keyboard",
-                    "action": "New action",
+                    "action": "Navigate",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -520,7 +528,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "UI_Keyboard",
-                    "action": "New action",
+                    "action": "Navigate",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -531,7 +539,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "UI_Keyboard",
-                    "action": "New action",
+                    "action": "Navigate",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -542,9 +550,86 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "UI_Keyboard",
-                    "action": "New action",
+                    "action": "Navigate",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "9ae536a9-6406-4d02-9b1a-940f49d6f5df",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "a904a606-0180-490d-83a9-081b35c4d562",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "UI_Keyboard",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "3941251c-f450-4cc1-8274-8b3d7eef78b1",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "UI_Keyboard",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "2a29874c-604b-4d1e-92ad-3d9db5bc8619",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "UI_Keyboard",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "45160c2a-4699-4fb7-9646-962f75bba0d6",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "UI_Keyboard",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "71506eee-ecf6-43bb-8f43-1928e5ecf9c3",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "UI_Keyboard",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c55e34a-eb7b-40aa-ac07-9f790855b688",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "UI_Keyboard",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
