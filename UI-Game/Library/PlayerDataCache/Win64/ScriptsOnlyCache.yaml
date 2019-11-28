@@ -72,7 +72,6 @@ ScriptsOnlyBuild:
     Unity.Entities.Hybrid.dll:
     - Unity.Entities.PlayerLoopDisableManager
     Unity.InputSystem.dll:
-    - UnityEngine.InputSystem.Editor.InputActionEditorWindow
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
@@ -101,6 +100,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -1331,7 +1332,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13452}
     - Class: 114
-      Script: {instanceID: 36214}
+      Script: {instanceID: 31882}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3169,4 +3170,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/The Boss.unity
   - Assets/Scenes/RollingCredits.unity
   - Assets/Scenes/Intro.unity
-  playerPath: C:/Users/crede/Desktop/HoppyGhost/UI-Game.exe
+  playerPath: C:/Users/Chad/Desktop/HoppyGhost/UI-Game.exe
