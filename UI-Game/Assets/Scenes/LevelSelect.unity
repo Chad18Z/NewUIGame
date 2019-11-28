@@ -814,8 +814,7 @@ MonoBehaviour:
   m_ScrollWheelAction: {fileID: 0}
   m_TrackedDevicePositionAction: {fileID: 0}
   m_TrackedDeviceOrientationAction: {fileID: 0}
-  m_TrackedDeviceSelectAction: {fileID: -4682142246220898272, guid: 02c4c6b4e1e35854bacf0bc3d82a4410,
-    type: 3}
+  m_TrackedDeviceSelectAction: {fileID: 0}
 --- !u!114 &1835599051
 MonoBehaviour:
   m_ObjectHideFlags: 0

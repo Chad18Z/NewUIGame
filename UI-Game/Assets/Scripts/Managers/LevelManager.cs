@@ -49,7 +49,7 @@ public class LevelManager : MonoBehaviour
         }
 
         // Fill the row (if needed) for asthetic value
-        if (portals.Count >= 5) return;
+        if (portals.Count >= 10) return;
 
         for (int i = 0; i < (5 - portals.Count); i++)
         {

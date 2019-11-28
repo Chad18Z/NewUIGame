@@ -103,10 +103,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
-    UnityEditor.UI.dll:
-    - UnityEditor.UI.ButtonEditor
-    - UnityEditor.UI.HorizontalOrVerticalLayoutGroupEditor
-    - UnityEditor.UI.ImageEditor
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -1337,7 +1333,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13452}
     - Class: 114
-      Script: {instanceID: 39960}
+      Script: {instanceID: 39024}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
