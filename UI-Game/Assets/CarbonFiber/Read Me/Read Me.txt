@@ -1,0 +1,27 @@
+Carbon Fiber
+
+This Shader setup come with three custom repeating fiber diffuse maps in PSD format. Each PSD has four to ten customizable layers to edit and create any type of unique fiber pattern with alpha channel for fiber gloss.
+
+
+Custom shader properties are:
+
+Main Color – Main Color
+
+Spec Color – Specular Color
+
+Fiber Spec Color – Color of specular fiber gloss, blends with the Fiber Spec Texture
+
+Reflect Power – Amount of reflection map
+
+RGB Tex (A) Fiber Spec – This is the base repeating texture, the alpha channel of this texture controls the Fiber specular gloss.
+
+Normal – Normal map to add surface detail
+
+Reflect Cube – Reflection map
+
+Fiber Spec Texture – Fiber Spec color blend map, gives a rainbow like gloss (Not Supported In Mobile Shader)
+
+
+
+
+Nikolaus Kraus

@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CarbonFiberRing
+  m_Shader: {fileID: 4800000, guid: 1d06ef2822a4c9943981cb2d820af3a8, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AdditiveGloss:
+        m_Texture: {fileID: 2800000, guid: de024358ee2988f4c956f7df4acb6baf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: ef54a32ed1a10d54093b90c4c1f398c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 7b3cf0a4b0893314da8d08a5993ecb64, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: dfd41dfb852b2b2428be4f7ee6e29a15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FiberNormal:
+        m_Texture: {fileID: 2800000, guid: 67e26b94ffdcf0544a845e68523bd37a, type: 3}
+        m_Scale: {x: 88, y: 55}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 2800000, guid: cfef2ef12cbabba47907b4c60e2c875e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 2800000, guid: 9661a03b6b451cc4e988a7d48692b383, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0ab0a7be0d4639343af862d51a56622a, type: 3}
+        m_Scale: {x: 33, y: 33}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: ef54a32ed1a10d54093b90c4c1f398c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: ef54a32ed1a10d54093b90c4c1f398c9, type: 3}
+        m_Scale: {x: 33, y: 33}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap:
+        m_Texture: {fileID: 2800000, guid: 2561b5b6d6e031d43bdb331d6b38c5ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: ef54a32ed1a10d54093b90c4c1f398c9, type: 3}
+        m_Scale: {x: 47.4, y: 33}
+        m_Offset: {x: 0, y: 0}
+    - _Reflect:
+        m_Texture: {fileID: 8900000, guid: c1e966713d30b404b898e57f72278031, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflections:
+        m_Texture: {fileID: 8900000, guid: 7b3cf0a4b0893314da8d08a5993ecb64, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecPower:
+        m_Texture: {fileID: 2800000, guid: 9661a03b6b451cc4e988a7d48692b383, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecTex:
+        m_Texture: {fileID: 2800000, guid: 3edd5d666462f47458786d17756d4595, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexMat1:
+        m_Texture: {fileID: 2800000, guid: 69a0571919c4ffb4c8206cd47a071766, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexMat2:
+        m_Texture: {fileID: 2800000, guid: b48eb46991cc9db40aa9224884be7694, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexMat3:
+        m_Texture: {fileID: 2800000, guid: de024358ee2988f4c956f7df4acb6baf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Blend: 0.637
+    - _EmissionLM: 6.3076925
+    - _GLOSSGraze: -0.08
+    - _Gloss: 1
+    - _Gloss_Fiber_MixRange: 0.46153846
+    - _Glossiness: 0.674
+    - _HeightScale: 2.9
+    - _IllumPower: -0.5
+    - _Metallic: 0.534
+    - _Parallax: 0.0433
+    - _Reflection: 1
+    - _ReflectionFalloff: -0.24
+    - _ReflectionPower: 0.215
+    - _SPECULARGraze: 0
+    - _SecondaryGloss: 0
+    - _SecondarySpecular: 0
+    - _Shine: 10
+    - _Shininess: 0.116
+    - _Specular: 0.46153855
+    m_Colors:
+    - _Color: {r: 0.45588237, g: 0.45588237, b: 0.45588237, a: 0.53333336}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _FiberColor: {r: 1, g: 1, b: 1, a: 0.853}
+    - _GlowColour: {r: 1, g: 1, b: 1, a: 0.4862745}
+    - _LightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 0.49411765}
+    - _MainLightPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 0.9, g: 0.9, b: 0.9, a: 1}

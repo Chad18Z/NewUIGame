@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CarbonFiber3
+  m_Shader: {fileID: 4800000, guid: 2fcb7ce105a03be499155cda217c2abb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 2561b5b6d6e031d43bdb331d6b38c5ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0ab0a7be0d4639343af862d51a56622a, type: 3}
+        m_Scale: {x: 33, y: 33}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: decccc33c0e8df546869f55748e6f4f8, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Reflect:
+        m_Texture: {fileID: 8900000, guid: c1e966713d30b404b898e57f72278031, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecTex:
+        m_Texture: {fileID: 2800000, guid: 7c73bf8517e214f41b144a47f46f78b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbPower: 0.2
+    - _Blend: 0
+    - _BlurAmount: 0
+    - _Cutoff: 0
+    - _DiffLitPower: 0.5
+    - _Gloss: 1
+    - _IllumPower: -0.413318
+    - _ReflectionPower: 0.133
+    - _Refract: 0.1
+    - _RefractPower: 0.5
+    - _Rotation: 0
+    - _Shine: 10
+    - _Specular: 0.5192308
+    m_Colors:
+    - _Color: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 0.14509805}
+    - _Emit: {r: 0, g: 0, b: 0, a: 1}
+    - _FiberColor: {r: 1, g: 1, b: 1, a: 0.47843137}
+    - _SpecularColor: {r: 0.1397059, g: 0.1397059, b: 0.1397059, a: 0.4}
