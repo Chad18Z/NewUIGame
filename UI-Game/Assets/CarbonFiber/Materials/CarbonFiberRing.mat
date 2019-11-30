@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecTex:
-        m_Texture: {fileID: 2800000, guid: 3edd5d666462f47458786d17756d4595, type: 3}
+        m_Texture: {fileID: 2800000, guid: 18e0ea41387b24b4eb11efc3566d4e35, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TexMat1:
