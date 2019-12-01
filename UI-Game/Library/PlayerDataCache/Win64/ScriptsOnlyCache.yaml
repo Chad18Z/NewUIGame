@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AvailablePortals
+    - BackgroundMovingController
     - BackgroundMusic
     - ControlSchemeSelect
     - CreditsScreen
@@ -478,6 +479,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 43
       Script: {instanceID: 0}
+    - Class: 45
+      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 50
@@ -487,8 +490,6 @@ ScriptsOnlyBuild:
     - Class: 61
       Script: {instanceID: 0}
     - Class: 62
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -560,6 +561,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11430}
     - Class: 114
       Script: {instanceID: 11442}
+    - Class: 114
+      Script: {instanceID: 11770}
     - Class: 114
       Script: {instanceID: 11788}
     - Class: 114
@@ -1342,7 +1345,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13468}
     - Class: 114
-      Script: {instanceID: 45326}
+      Script: {instanceID: 124470}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
