@@ -265,6 +265,7 @@ public class playerController : MonoBehaviour
 
         if (hit && rb.velocity.y < 0)
         {
+            //Debug.Log("Stomp!");
             stompSound.Play();
             rb.velocity = Vector2.up * 10f; // 7.3
             Screenshake.bigShakeEvent.Invoke();

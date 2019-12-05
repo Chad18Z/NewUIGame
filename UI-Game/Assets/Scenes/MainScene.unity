@@ -976,6 +976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background_Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 1616584906383700, guid: 78374e9d66835d14fa86efdce12c7c2d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4598455582901916, guid: 78374e9d66835d14fa86efdce12c7c2d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
