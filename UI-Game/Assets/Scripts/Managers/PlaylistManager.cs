@@ -26,6 +26,9 @@ public class PlaylistManager : MonoBehaviour
 
     AudioSource pop;
 
+    [SerializeField]
+    GameObject firstSelected;
+
     public GameObject dragItem;
     GameObject dropItem;
 
@@ -121,6 +124,7 @@ public class PlaylistManager : MonoBehaviour
         playlistDict.Add(droppedItem, portalDict[currentSelectedObject]);
         droppedItem.GetComponentInChildren<TextMeshProUGUI>().text = dragItem.GetComponentInChildren<TextMeshProUGUI>().text;
         pop.Play();
+        EventSystem.current.SetSelectedGameObject(firstSelected);
     }
 
     public void OnCancel()
