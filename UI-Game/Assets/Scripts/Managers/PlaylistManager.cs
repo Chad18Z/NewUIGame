@@ -41,7 +41,7 @@ public class PlaylistManager : MonoBehaviour
         pop = gameObject.GetComponent<AudioSource>();
         availablePortals = GameObject.FindGameObjectWithTag("availablePortals").GetComponent<AvailablePortals>();
         portals = availablePortals.GetPortals();
-
+        
         PopulateButtons();
     }
 
@@ -125,6 +125,7 @@ public class PlaylistManager : MonoBehaviour
 
     public void OnCancel()
     {
+        availablePortals.isInPlaylistMode = false;
         SceneManager.LoadScene("PlaymodeSelect");
     }
 

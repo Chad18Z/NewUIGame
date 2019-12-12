@@ -21,6 +21,8 @@ public class PauseMenu : MonoBehaviour
 
     GameObject instructions;
 
+    AvailablePortals availablePortals;
+
     // Instantiation of black background object
     Canvas pauseCanvas;
 
@@ -38,6 +40,7 @@ public class PauseMenu : MonoBehaviour
         // Create a fade canvas
         pauseCanvas.enabled = false;
 
+        availablePortals = GameObject.FindGameObjectWithTag("availablePortals").GetComponent<AvailablePortals>();
     }
 
     // Delegate for the game paused event
@@ -68,7 +71,12 @@ public class PauseMenu : MonoBehaviour
     public void HandleQuit()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("LevelSelect");
+        
+        if (availablePortals.isInPlaylistMode)
+        {
+            SceneManager.LoadScene("PlaylistSelect");
+        }
+        else SceneManager.LoadScene("LevelSelect");
     }
 
     public void HandleControls()
