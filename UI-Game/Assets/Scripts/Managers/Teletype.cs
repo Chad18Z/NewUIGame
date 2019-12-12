@@ -58,7 +58,7 @@ public class Teletype : MonoBehaviour
 
     IEnumerator DisplayMessage(string message)
     {
-        //bool skip = false;
+        bool skip = false;
         SoundEffectSource.loop = true;
         yield return new WaitForSeconds(.1f);
         int totalVisibleCharacters = textBox.textInfo.characterCount;
@@ -69,12 +69,22 @@ public class Teletype : MonoBehaviour
         {
             int visibleCount = counter % (totalVisibleCharacters + 1);
 
+            // Allow player to mouse-button through text
+            if (Input.GetMouseButton(0))
+            {
+                visibleCount = totalVisibleCharacters;
+                skip = true;
+            }
+
             textBox.maxVisibleCharacters = visibleCount;
             if (visibleCount >= totalVisibleCharacters)
             {
                 SoundEffectSource.loop = false;
-                yield return new WaitForSeconds(1.9f);
-                quit = true;
+                if (!skip)
+                {
+                    yield return new WaitForSeconds(1.9f);
+                }
+                else quit = true;
             }
             counter += 1;
             yield return new WaitForSeconds(.01f);

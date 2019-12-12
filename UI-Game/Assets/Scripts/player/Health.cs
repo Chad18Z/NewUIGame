@@ -30,6 +30,11 @@ public class Health : MonoBehaviour
 
     AvailablePortals availablePortals;
 
+    [SerializeField]
+    GameObject barObject;
+
+    Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,12 +51,22 @@ public class Health : MonoBehaviour
         offsetFromPlayer = new Vector3(.035f, .8f, 0f);
 
         repairRate = damage / 3f;
+
+        animator = barObject.GetComponent<Animator>();
+        animator.SetBool("isPulsating", false);
     }
 
+    IEnumerator StopPulsating()
+    {
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("isPulsating", false);
+    }
     void HandleHealthLoss()
     {
         healthBar.fillAmount -= damage;
 
+        animator.SetBool("isPulsating", true);
+        StartCoroutine(StopPulsating());
         if (healthBar.fillAmount <= 0 && !availablePortals.isInPlaylistMode)
         {
             // This is where the ghost dies
