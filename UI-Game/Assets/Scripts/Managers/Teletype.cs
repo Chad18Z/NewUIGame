@@ -84,7 +84,7 @@ public class Teletype : MonoBehaviour
                 {
                     yield return new WaitForSeconds(1.9f);
                 }
-                else quit = true;
+                quit = true;
             }
             counter += 1;
             yield return new WaitForSeconds(.01f);
